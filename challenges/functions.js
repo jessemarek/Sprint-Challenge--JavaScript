@@ -31,8 +31,13 @@ function greeting(firstName, lastName){
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
+console.log("***** add() *****");
 console.log(consume(2, 2, add)); // 4
+
+console.log("***** multiply() *****");
 console.log(consume(10, 16, multiply)); // 160
+
+console.log("***** greeting() *****");
 console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
